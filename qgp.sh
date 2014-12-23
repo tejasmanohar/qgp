@@ -1,5 +1,5 @@
 qgp() {
   git add .
-  git commit -a -m "$0"
+  git commit -a -m "$1"
   git push origin master
 }
